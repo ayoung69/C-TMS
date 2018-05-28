@@ -1,236 +1,116 @@
 <!DOCTYPE html>
-<html class="" lang="en-US"
-<head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
-
-
-	<title>CTMS</title>
-	<meta name="description"  content="시티엠에스, developing and manufacturing the Intercommunication System and Electronic products, 선박, 해양플랜트 생산설계 및 선박용 항해통신장비, 오토메이션, 선박건조설계 및 선박 자동화 통신분야." />
-
-	<style>
-
-* {box-sizing:border-box}
-
-	/* 슬라이드쇼 컨테이너의 디자인 */
-	.slideshow-container {
-	  max-width: 1800px;
-	  position: relative;
-	  margin: auto;
-	}
-
-	/* 이미지를 숨기는데 사용 */
-	.mySlides {
-	    display: none;
-	}
-
-	/* 다음, 이전 버튼 */
-	.prev, .next {
-	  cursor: pointer;
-	  position: absolute;
-	  top: 50%;
-	  width: auto;
-	  margin-top: -22px;
-	  padding: 16px;
-	  color: white;
-	  font-weight: bold;
-	  font-size: 18px;
-	  transition: 0.6s ease;
-	  border-radius: 0 3px 3px 0;
-	}
-
-	/* "다음 버튼"을 오른쪽에 위치 */
-	.next {
-	  right: 0;
-	  border-radius: 3px 0 0 3px;
-	}
-
-	/* 마우스를 올리면 배경을 변경 */
-	.prev:hover, .next:hover {
-	  background-color: rgba(0,0,0,0.8);
-	}
-
-	/* 캡션 부분 */
-	.text {
-	  color: #f2f2f2;
-	  font-size: 15px;
-	  padding: 8px 12px;
-	  position: absolute;
-	  bottom: 8px;
-	  width: 100%;
-	  text-align: center;
-	}
-
-	/* 숫자 부분 위에 적은 (1/3) <-- 이런거 */
-	.numbertext {
-	  color: #f2f2f2;
-	  font-size: 12px;
-	  padding: 8px 12px;
-	  position: absolute;
-	  top: 0;
-	}
-
-	/* 하단의 점들 */
-	.dot {
-	  cursor: pointer;
-	  height: 15px;
-	  width: 15px;
-	  margin: 0 2px;
-	  background-color: #bbb;
-	  border-radius: 50%;
-	  display: inline-block;
-	  transition: background-color 0.6s ease;
-	}
-
-	.active, .dot:hover {
-	  background-color: #717171;
-	}
-
-	/* 페이드 효과 */
-	.fade {
-	  -webkit-animation-name: fade;
-	  -webkit-animation-duration: 1.5s;
-	  animation-name: fade;
-	  animation-duration: 1.5s;
-	}
-
-	@-webkit-keyframes fade {
-	  from {opacity: .4}
-	  to {opacity: 1}
-	}
-
-	@keyframes fade {
-	  from {opacity: .4}
-	  to {opacity: 1}
-	}
-	</style>
-
-
-</head>
-<body class="home page-template page-template-100-width page-template-100-width-php page page-id-168 fusion-image-hovers fusion-body ltr fusion-sticky-header no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop mobile-logo-pos-left layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-none">
-				<div id="wrapper" style="height= auto;>
-		<div id="home" style="position:relative;top:-1px;"></div>
-
-			<header class="fusion-header-wrapper">
-
-				<div class="fusion-header-v1 fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-  fusion-mobile-menu-design-modern">
-					<div class="fusion-header-sticky-height" style="height:123px; overflow:visible; display:none;" ></div>
-<div class="fusion-header" style="top: 0px; height: 0px; overflow:visible;">
-
-<div class="fusion-row" style="padding-top:0px; padding-bottom: 0px; padding-left:1500px; margin-left=800px"></div>
-</div>
-
-
-				<div class="fusion-logo" data-margin-top="31px" data-margin-bottom="31px" data-margin-left="100px" data-margin-right="0px">
-				<a class="fusion-logo-link"  href="http://c-tms.com/" >
-
-						<!-- standard logo -->
-			<img src="ctms_ci.png" srcset="ctms_ci.png 1x" logo_margin_left="500px" width="180" height="100" alt="ctms Logo" retina_logo_url="" class="fusion-standard-logo"  />
-
-
-					</a>
-				</div></div>
-			</div>
-
-
-<script type="text/javascript">
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// 다음, 이전 제어
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// 사진 제어
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-
-</script>
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 5000); // Change image every 5 seconds
-}
-</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 <body>
+  <body class="home page-template page-template-100-width page-template-100-width-php page page-id-168 fusion-image-hovers fusion-body ltr fusion-sticky-header no-tablet-sticky-header
+   no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop mobile-logo-pos-left layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-none">
+  			<div id="wrapper" class="">
+  	<div id="home" style="position:relative;top:-1px;"></div>
 
-	<!-- 슬라이드쇼 컨테이너 -->
-<div class="slideshow-container">
+  		<header class="fusion-header-wrapper">
+  			<div class="fusion-header-v1 fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-  fusion-mobile-menu-design-modern">
+  				<div class="fusion-header-sticky-height"></div>
+  <div class="fusion-header">
+  <div class="fusion-row">
+  			<div class="fusion-logo" data-margin-top="31px" margin-bottom="31px" margin-left="150px" margin-right="0px">
+  			<a class="fusion-logo-link"   href="http://c-tms.com/" >
 
-  <!-- 숫자와 캡션이 있는 이미지 -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 4</div>
-    <img src="001.jpg" style="width:100%">
-    <div class="text">"Caption Text"</div>
-  </div>
+  						<!-- standard logo -->
+  			<img src="ctms_ci.png" srcset="ctms_ci.png 1x"  width="180" height="100" alt="ctms Logo" retina_logo_url="" class="fusion-standard-logo"  />
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 4</div>
-    <img src="002.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 4</div>
-    <img src="003.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
+  					</a>
 
-	<div class="mySlides fade">
-		<div class="numbertext">4 / 4</div>
-		<img src="004.jpg" style="width:100%">
-		<div class="text">Caption Four </div>
-	</div>
 
-  <!-- 다음, 이전 이미지 버튼 -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
+  				</div></div>
+  			</div>
+  		</div>
+  	</div>
+<!-- Content will go here -->
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#서비스" class="w3-button w3-bar-item">서비스</a>
+  <a href="#R&D" class="w3-button w3-bar-item">R&D</a>
+  <a href="#커뮤니티" class="w3-button w3-bar-item">커뮤니티</a>
+</nav>
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="001.jpg" style="width:100%">
+  <img class="mySlides" src="002.jpg" style="width:100%">
+  <img class="mySlides" src="003.jpg" style="width:100%">
+</section>
+
+	<script type="text/javascript">
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+<section class="w3-container w3-center" style="max-width:600px">
+  <h2 class="w3-wide">WELCOME TO OUR WEBSITE!</h2>
+  <p class="w3-opacity"><h4>선박관리 전문 지식인력으로 구성된 CTMS는 해양 안전의 SOLUTION을 제공하며 선박운항의 안전교육 SYSTEM을  연구·개발합니다.</h4></p>
+</section>
+
+
+<section class="w3-container w3-content w3-center" style="max-width:600px">
+<p class="w3-justify">
+  <img src="home.jpg" alt="Random Name" style="width:100%">
+  Ship experts with 35years of working experience research and develop the SMS for the safety of  ships and the sea, based on rich marine human N/W</p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</section>
+
+
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p>서비스</p>
+    <img src="001.jpg" alt="Random Name" style="width:100%">
+  </article>
+  <article class="w3-third">
+    <p>R&D</p>
+    <img src="002.jpg" alt="Random Name" style="width:100%">
+  </article>
+  <article class="w3-third">
+    <p>커뮤니티</p>
+    <img src="003.jpg" alt="Random Name" style="width:100%">
+  </article>
+</section>
+<br>
+<br>
+<br>
 <br>
 
-<!-- 현재 이미지를 알려주는 하단의 점 -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-	<span class="dot" onclick="currentSlide(4)"></span>
-</div>
-</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-GRAY w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </p>
+</footer>
 
 
 
-		</body>
-		</html>
+</body>
+</html>
