@@ -291,7 +291,7 @@ width:100%;
 
 
 
-.menubar ul{  /*?�단메뉴?�이*/
+.menubar ul{  /*?곷떒硫붾돱?믪씠*/
 
 height:53px;
 list-style:none;
@@ -307,7 +307,7 @@ float:left;
 padding:0px;
 }
 
-.menubar li a{   /*?�단메뉴목록*/
+.menubar li a{   /*?곷떒硫붾돱紐⑸줉*/
 background: #fff;
 color:#393939;
 display:inblock;
@@ -326,7 +326,7 @@ text-decoration:none;
 
 .menubar li ul{
 
-display:none; /* ?�상?�에???�랍메뉴가 ?�보?�게 ?�기 */
+display:none; /* ?됱긽?쒖뿉???쒕엻硫붾돱媛 ?덈낫?닿쾶 ?섍린 */
 height:auto;
 padding-top:31px;
 margin:0px;
@@ -343,7 +343,7 @@ font-weight:100;
 }
 
 .menubar li:hover ul{
-display:block; /* 마우??커서 ?�리�??�랍메뉴 보이�??�기 */
+display:block; /* 留덉슦??而ㅼ꽌 ?щ━硫??쒕엻硫붾돱 蹂댁씠寃??섍린 */
 
 
 }
@@ -712,6 +712,7 @@ color:#fff;
     padding-top: 100px;
 
     padding-bottom: 50px;
+
   }
    .author-info {
 	   border-radius: 30%;
