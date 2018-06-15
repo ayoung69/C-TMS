@@ -244,12 +244,12 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
       MENU              
   -----------------------------------------*/
-#top{
+#topbar{
 width:100%;
 }
 
 .logo{
-	   margin-left:16%;
+	   margin-left:19%;
 	   margin-right:0;
 	    margin-bottom:15px;
 	      padding-right:0;
@@ -664,7 +664,7 @@ color:#fff;
     list-style-type: none;
 	margin-top: 65px;
   
-    left: 18%;
+    left: -20px;
     width: 280px;
     height: 130px;
 }
@@ -686,7 +686,7 @@ color:#fff;
 #myUL li a:hover:not(.header) {
 	color: #1E4AA8;
 	font-weight:bold;
-    background-color: #F0F4F9; /* Add a hover effect to all links, except for headers */
+    background-color: #F0F1F9; /* Add a hover effect to all links, except for headers */
 } 
   
   
@@ -696,8 +696,9 @@ color:#fff;
 } 
   
   .intro-img{
-	
-   margin-left: 20%; 
+	  
+	 position:relative;
+    left: 30%; 
     padding: 10px 
 }
 
@@ -780,8 +781,8 @@ color:#fff;
 	box-sizing: border-box;
     position: absolute;
     top: 50%;
-    left: 75%;
-    width: 60%;
+    left: 60%;
+    width: 80%;
     height:auto;
     border-radius: 50%;
    }
@@ -1194,12 +1195,9 @@ color:#fff;
  
   .copyright-text p,
   .footer-link a {
-	
     color: #858585;
     font-size: 12px;
     font-weight: 500;
-	text-align: left;
-
   }
 
   .footer-link a {
@@ -1207,9 +1205,7 @@ color:#fff;
     display: inline-block;
     padding: 0 10px;
     margin-top: 4px;
-	
   }
-  
 
   .angle-up-btn {
     position: relative;
@@ -1240,73 +1236,8 @@ color:#fff;
 
 
 
-  /*---------------------------------------
-     SOCIAL ICON              
-  -----------------------------------------*/
-
-  .social-icon {
-    position: relative;
-    padding: 0;
-    margin: 0;
-  }
-
-  .social-icon li {
-    display: inline-block;
-    list-style: none;
-  }
-
-  .social-icon li a {
-    border-radius: 100px;
-    color: #464646;
-    font-size: 15px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-decoration: none;
-    text-align: center;
-    transition: all 0.4s ease-in-out;
-    position: relative;
-  }
-
-  .social-icon li a:hover {
-    background: #4267b2;
-    color: #ffffff;
-  }
 
 
-
-  /*---------------------------------------
-     SOCIAL ICON              
-  -----------------------------------------*/
-
-  .social-icon {
-    position: relative;
-    padding: 0;
-    margin: 0;
-  }
-
-  .social-icon li {
-    display: inline-block;
-    list-style: none;
-  }
-
-  .social-icon li a {
-    border-radius: 100px;
-    color: #464646;
-    font-size: 15px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-decoration: none;
-    text-align: center;
-    transition: all 0.4s ease-in-out;
-    position: relative;
-  }
-
-  .social-icon li a:hover {
-    background: #4267b2;
-    color: #ffffff;
-  }
 
 
   /*---------------------------------------
