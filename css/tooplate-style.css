@@ -249,7 +249,7 @@ width:100%;
 }
 
 .logo{
-	   margin-left:19%;
+	   margin-left:18%;
 	   margin-right:0;
 	    margin-bottom:15px;
 	      padding-right:0;
@@ -260,7 +260,7 @@ width:100%;
 	
    }
 .menubar-info{
-      margin-left:57%;
+      margin-left:58%;
 	   margin-right:0;
 	    margin-bottom:15px;
 	      padding-right:0;
@@ -279,7 +279,7 @@ width:100%;
 	padding-right: 0px;
  
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 16px;
 	margin-top: 0px;
 	-webkit-transition: all ease-in-out 0.4s;
 	transition: all ease-in-out 0.4s;
@@ -291,7 +291,7 @@ width:100%;
 
 
 
-.menubar ul{  /*?�단메뉴?�이*/
+.menubar ul{  /
 
 height:53px;
 list-style:none;
@@ -307,7 +307,7 @@ float:left;
 padding:0px;
 }
 
-.menubar li a{   /*?�단메뉴목록*/
+.menubar li a{   /
 background: #fff;
 color:#393939;
 display:inblock;
@@ -326,7 +326,7 @@ text-decoration:none;
 
 .menubar li ul{
 
-display:none; /* ?�상?�에???�랍메뉴가 ?�보?�게 ?�기 */
+display:none; 
 height:auto;
 padding-top:31px;
 margin:0px;
@@ -343,13 +343,14 @@ font-weight:100;
 }
 
 .menubar li:hover ul{
-display:block; /* 마우??커서 ?�리�??�랍메뉴 보이�??�기 */
+display:block;
 
 
 }
 
 .menubar li li {
 background:  #F4F4F4;
+
 display:block;
 float:none;
 margin:0px;
@@ -656,24 +657,31 @@ color:#fff;
      sidemenu      
   -----------------------------------------*/
 
+#content{
+	height:400px;
+}
 
+#maincontent{
+	height:700px;
+}
 
 #myUL {
     /* Remove default list styling */
 	position:absolute;
     list-style-type: none;
-	margin-top: 65px;
-  
+	margin-top: 50px;
     left: -20px;
     width: 280px;
     height: 130px;
+
 }
+
+
 
 #myUL li a {
     border: 1px solid #ddd; /* Add a border to all links */
 	border-left:none;
-    margin-top: -1px; /* Prevent double borders */
-	
+    margin-top: -1px; /* Prevent double borders */	
     background-color: #fff; /* Grey background color */
     padding: 9px; /* Add some padding */
 	padding-left: 5px;
@@ -690,16 +698,17 @@ color:#fff;
 } 
   
   
-  
- .main {
-    
-} 
+  #main{
+  }
+
   
   .intro-img{
 	  
-	 position:relative;
-    left: 30%; 
-    padding: 10px 
+	 position:inherit;
+    left:0; 
+    padding: 0px ;
+	 height:auto;
+	 margin:0;
 }
 
 
@@ -708,9 +717,9 @@ color:#fff;
   /*---------------------------------------
      INTRO             
   -----------------------------------------*/
-  #intro{
+  .sidemenu{
 	     
-    padding-top: 100px;
+    padding-top: 10px;
 
     padding-bottom: 50px;
   }
@@ -719,12 +728,12 @@ color:#fff;
    }
 	
 
-  #intro h6 {
+  .intro h6 {
     color: #858585;
     margin: 0;
   }
   
-   #intro h3 {
+   .intro h3 {
     color: #1E4AA8
 	
   }
@@ -748,45 +757,65 @@ color:#fff;
 } 
  
 
-  #intro{
+ .intro{
   
-	
-    padding-top: 60px;
+	margin-top:0;
+    padding-top:0px;
     padding-bottom: 50px;
+	
+	
   }
   
   
 
 
-  #intro h6 {
+  .intro h6 {
     color: #858585;
     margin: 0;
   }
   
-   #intro h3 {
+   .intro h3 {
     color: #1E4AA8;
 	font-size:20px;
 	text-align:left;
    }
 	
-	#intro h2 {
+	.intro h2 {
     color: #333;
 	font-size:40px;
 	text-align:left;
 	
 	
   }
-   .intro-info {
+   .introinfo {
     padding-top: 0px;
 	box-sizing: border-box;
     position: absolute;
-    top: 50%;
-    left: 60%;
+    top: 40%;
+    left: 40%;
     width: 80%;
     height:auto;
     border-radius: 50%;
    }
   
+
+
+   .first {
+    padding-top: 0px;
+	box-sizing: border-box;
+    position: absolute;
+    top: 48%;
+    left: 36%;
+    width: 100%;
+    height:auto;
+    border-radius: 50%;
+   }
+  
+
+
+
+
+
 
 
 
@@ -1120,6 +1149,7 @@ color:#fff;
    footer {
     padding-top: 80px;
     padding-bottom: 40px;
+	 position: relative;
 	
   }
 
@@ -1312,7 +1342,12 @@ color:#fff;
       padding-top: 4em;
       padding-bottom: 4em;
     }
-
+	
+    mainfoot{
+	   
+	padding-top: 500px;
+	   
+   }
     footer {
       padding-top: 60px;
       padding-bottom: 0;
