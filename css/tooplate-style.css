@@ -39,7 +39,7 @@ http://www.tooplate.com/view/2098-health
 
   h2 {
     color: #272727;
-    font-size: 3em;
+    font-size: 2.5em;
     padding-bottom: 10px;
   }
 
@@ -244,144 +244,111 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
       MENU              
   -----------------------------------------*/
-#topbar{
+#topheader{
 width:100%;
 }
 
 .logo{
-	   margin-left:18%;
+	   float:left;
+	   margin-left:21%;
 	   margin-right:0;
-	    margin-bottom:15px;
-	      padding-right:0;
+	   margin-bottom:15px;
+	   padding-right:0;
 	   margin-top:10px;
 	   border:none;
 	   width:20px;
-	   leight:75px;
-	
+	   height:73px;	
    }
-.menubar-info{
-      margin-left:58%;
-	   margin-right:0;
-	    margin-bottom:15px;
-	      padding-right:0;
-	   margin-top:10px;
-	   width:70%;
-	   leight:75px;
+.gnav-info{
+      margin-left:50%;
+	   width:75%;
+	 
+   list-style:none;
 }
 
-.menubar{
-
-
+.gnav{
 	background-color: #fff;
 	overflow: hidden;
 	border:none;
-	margin-right:0px;
-	padding-right: 0px;
- 
-	padding-top: 5px;
-	padding-bottom: 16px;
-	margin-top: 0px;
-	-webkit-transition: all ease-in-out 0.4s;
-	transition: all ease-in-out 0.4s;
 	font-size:18px;
 	font-weight:bold;
-
+	list-style:none;
 
 }
 
-
-
-.menubar ul{  /
-
-height:53px;
+.gnav ul{  /
 list-style:none;
-margin:0;
-padding:0;
+padding-top:14px;
+padding-left:6px;
+
+
+
 }
-
-
-
-
-.menubar li{
+.gnav li{
 float:left;
-padding:0px;
+list-style:none;
 }
 
-.menubar li a{   /
+.gnav li a{   /
 background: #fff;
 color:#393939;
-display:inblock;
+display:block;
 font-weight:normal;
 line-height:42px;
-margin:0px;
-padding:15px 28px  ;
-padding-top:25px  ;
+padding:14px 28px 14px 28px;
 text-align:center;
 text-decoration:none;
-
-
-
+list-style:none;
 }
 
 
-.menubar li ul{
-
+.gnav li ul{
 display:none; 
-height:auto;
-padding-top:31px;
-margin:0px;
-border:0px;
 position:absolute;
 width:200px;
 z-index:200;
 text-align:center;
 text-decoration:none;
 font-weight:100;
+	 
 
 /*top:1em;
 /*left:0;*/
 }
 
-.menubar li:hover ul{
+.gnav li:hover ul{
 display:block;
 
 
 }
 
-.menubar li li {
+.gnav li li {
 background:  #F4F4F4;
-
 display:block;
 float:none;
-margin:0px;
-padding-bottom:0px;
 width:200px;
 
 }
 
-.menubar li:hover li a{
-background:none;
- 
+.gnav li:hover li a{
+background:none; 
 }
 
-.menubar li ul a{
+.gnav li ul a{
 display:block;
 height:45px;
 font-size:15px;
 font-style:normal;
-
-padding-left: 30px;
-padding-top: 0px;
+padding-left:30px;
+padding-top:0px;
 text-align:left;
 }
 
-.menubar  ul a:hover{
-color:#2F4ACE;
-
-	
+.gnav  ul a:hover{
+color:#2F4ACE;	
 }
 
-.menubar li ul li:hover a{
+.gnav li ul li:hover a{
 background: #1e4aa8;
 border:0px;
 color:#fff;
@@ -392,7 +359,7 @@ color:#fff;
 
   /*---------------------------------------
       header          
-  -----------------------------------------*/
+
   
 
 
@@ -413,6 +380,7 @@ color:#fff;
     font-size: 16px;
     line-height: 24px;
     padding-top: 50px;
+	margin-top:100px;
   }
 
   header a,
@@ -443,7 +411,7 @@ color:#fff;
 
   /*---------------------------------------
      navbar   
-  -----------------------------------------*/
+
 
 
 
@@ -540,7 +508,7 @@ color:#fff;
   #home h1 {
     color: #ffffff;
     padding-bottom: 10px;
-    margin-top: 0;
+    margin-top: 0px;
   }
 
   #home h3 {
@@ -550,16 +518,18 @@ color:#fff;
     line-height: inherit;
     letter-spacing: 3px;
     text-transform: uppercase;
-    margin: 0;
+   padding-top: 180px;
   }
 
   .slider .container {
     width: 100%;
+	clear:both;
   }
 
   .slider .owl-dots {
       position: absolute;
       top: 575px;
+	  
       width: 100%;
       justify-content: center;
   }
@@ -582,7 +552,7 @@ color:#fff;
   }
 
   .slider .caption {
-    display: flex;
+    display: fixed;
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -618,59 +588,75 @@ color:#fff;
 
 
 
+
+
+
  /*---------------------------------------
-     COMPANY       
+     COMPANY PIC       
   -----------------------------------------*/
 
    
-  #company h1 {
-	 
-    color: #ffffff;
-    padding-bottom: 20px;
-    margin-top: 80px;
-	text-align:center;
-  }
 
+ #companypic{
+
+ }
  
 
-  
-   .company-image {
-	   
-	background-position: inherit;
+ .pic-h1{
+    display:absolute;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+	padding-top:60px;     color: #fff;
+	font-size: 100px;
+    font-weight: bold;
+    line-height: inherit;
+    letter-spacing: 2px;
+    cursor: e-resize;
+	
+ }
+	  
+ .item {
+	 clear:both;
+    background-position: absolute;
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
     height: 300px;
-	width: 100%;
-	padding: 0;
-	
+	padding-top:-20px;
+	margin-top:-20px;
 	background-image: url(../images/cp001.jpg);
   }
-  
 
- 
-   
-  
 
+  
 
 /*---------------------------------------
-     sidemenu      
+  lnav  
   -----------------------------------------*/
 
 #content{
-	height:400px;
+	
+  
+
 }
 
-#maincontent{
-	height:700px;
+.lnav{
+	float:left;
+    padding-top: 10px;
+	width:200px;
+
 }
+
+
 
 #myUL {
     /* Remove default list styling */
+
 	position:absolute;
     list-style-type: none;
 	margin-top: 50px;
-    left: -20px;
+    
     width: 280px;
     height: 130px;
 
@@ -694,46 +680,26 @@ color:#fff;
 #myUL li a:hover:not(.header) {
 	color: #1E4AA8;
 	font-weight:bold;
-    background-color: #F0F1F9; /* Add a hover effect to all links, except for headers */
+    background-color:#E9EDF5; /* Add a hover effect to all links, except for headers */
 } 
   
-  
-  #main{
-  }
-
-  
-  .intro-img{
-	  
-	 position:inherit;
-    left:0; 
-    padding: 0px ;
-	 height:auto;
-	 margin:0;
-}
-
-
-
+ 
 
   /*---------------------------------------
      INTRO             
   -----------------------------------------*/
-  .sidemenu{
-	     
-    padding-top: 10px;
 
-    padding-bottom: 50px;
-  }
    .author-info {
 	   border-radius: 30%;
    }
 	
 
-  .intro h6 {
+  .companypic h6 {
     color: #858585;
     margin: 0;
   }
   
-   .intro h3 {
+   .companypic h3 {
     color: #1E4AA8
 	
   }
@@ -747,76 +713,219 @@ color:#fff;
 
   .vl {
 	
-    border-left: 50px solid #1E4AA8;
+    border-left: 55px solid #1E4AA8;
     height: 5px;
     position: absolute;
     left:0;
-    margin-left: -3px;
-	margin-top:0;
-    top: 0px;
+    margin-left: 0;
+	margin-top:0px;
+    
 } 
  
+ 
+ 
+.intro{
+	 float:left;
+	width:700px;
 
- .intro{
-  
-	margin-top:0;
-    padding-top:0px;
-    padding-bottom: 50px;
 	
+}
+.intro-h4{
+	 color: #333;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: inherit;
+    letter-spacing: 2px;
+}
+
+   .intro-info {
+  position: absolute;
+  margin-top: 50px;
+  left:38%;
+  height:800px;
+
+   }
+   
+	.introfoot{
+	   
+	margin-top: 520px;
+	   
+   }
+  #aside{
 	
   }
   
-  
+.side-img{
+	position:absolute;
+	float:right;
+	width: 350px;
+	right:21%; 
+	margin-top:55px;
+}
+	
+ 
+ 
+   /*---------------------------------------
+    COMPANY           
+  -----------------------------------------*/
 
 
-  .intro h6 {
+ .company{
+    float:right;
+	width:500px;
+	height:400px;
+	left: 38%;
+
+  }
+  .company-info {
+  position: absolute;
+  margin-top: 50px;
+  left: 38%;
+
+    
+   }
+
+  .company h6 {
     color: #858585;
     margin: 0;
   }
   
-   .intro h3 {
+   .company h3 {
     color: #1E4AA8;
 	font-size:20px;
 	text-align:left;
+	margin-left:10px; 
+	
    }
+ 
+
+  .companyimg{
 	
-	.intro h2 {
-    color: #333;
-	font-size:40px;
-	text-align:left;
+    float:left;
+	width:700px;
+	margin-top:40px;
+	margin-left:70px;
+   
+}
+
+ #foot1{
+ }
+ 
+ 
+ .companyfoot{
+	 margin-top: 600px;
+ }
+
+
+    .vl1 {
 	
+    border-left: 55px solid #1E4AA8;
+    height: 5px;
+    position: absolute;
+    left:0;
+    margin-left: 0px;
+	margin-top:0px;
+    
+} 
+
+
+
+  /*---------------------------------------
+       customer              
+  -----------------------------------------*/
+  
+  #customer{
+  }
+  .customer-info{
+	  float:left;
+	  margin-left:30%;
+	  margin-top:50px;
 	
   }
-   .introinfo {
-    padding-top: 0px;
-	box-sizing: border-box;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    width: 80%;
-    height:auto;
-    border-radius: 50%;
-   }
   
-
-
-   .first {
-    padding-top: 0px;
-	box-sizing: border-box;
-    position: absolute;
-    top: 48%;
-    left: 36%;
-    width: 100%;
-    height:auto;
-    border-radius: 50%;
-   }
+  .customer-image{
+	  float:left;
+	  margin-left:7px;
+	  margin-top:100px;
+	  height:150px;
+  }
   
+    .vl2 {
+	float:left;
+    border-left: 55px solid #1E4AA8;
+    height: 5px;
+    position: absolute;
+    left:38%;
+	margin-top:0px;
+    
+} 
+ #foot2{
+ }
+  .customerfoot{
+
+	margin-top:40px;
+	padding-top:0;
+
+   }
+   
+
+  /*---------------------------------------
+   SERVICE        
+  -----------------------------------------*/
+
+ #servicepic{
+
+ }
+ 
+
+ .pic-h1{
+    display:absolute;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+	padding-top:60px;     color: #fff;
+	font-size: 100px;
+    font-weight: bold;
+    line-height: inherit;
+    letter-spacing: 2px;
+    cursor: e-resize;
+	
+ }
+	  
+ .s-item {
+	 clear:both;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 300px;
+	padding-top:-20px;
+	margin-top:-20px;
+	background-image: url(../images/sp001.jpg);
+  }
 
 
 
-
-
-
+  .servicepic h6 {
+    color: #858585;
+    margin: 0;
+  }
+  
+   .servicepic h3 {
+    color: #1E4AA8
+	
+  }
+  
+   .s-h2 {
+    color: #272727;
+    font-size: 2em;
+    padding-bottom: 10px;
+  }
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+} 
 
 
   /*---------------------------------------
@@ -1133,13 +1242,6 @@ color:#fff;
 
   
   
-  
-  
-  
-  
-  
-  
-  
 
 
   /*---------------------------------------
@@ -1147,12 +1249,15 @@ color:#fff;
   -----------------------------------------*/
 
    footer {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 40px;
 	 position: relative;
+	 clear:both;
+	
 	
   }
-
+  
+ 
 
 
   footer h4 {
@@ -1343,11 +1448,7 @@ color:#fff;
       padding-bottom: 4em;
     }
 	
-    mainfoot{
-	   
-	padding-top: 500px;
-	   
-   }
+  
     footer {
       padding-top: 60px;
       padding-bottom: 0;
