@@ -591,46 +591,6 @@ color:#fff;
 
 
 
- /*---------------------------------------
-     COMPANY PIC       
-  -----------------------------------------*/
-
-   
-
- #companypic{
-
- }
- 
-
- .pic-h1{
-    display:absolute;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-	text-shadow:0 0 2px #999;
-	padding-top:60px;    
-	color: #fff;
-	font-size: 100px;
-    font-weight: bold;
-    line-height: inherit;
-    letter-spacing: 2px;
-    cursor: e-resize;
-	
- }
-	  
- .item {
-	 clear:both;
-    background-position: absolute;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
-    height: 300px;
-	padding-top:-20px;
-	margin-top:-20px;
-	background-image: url(../images/cp001.jpg);
-  }
-
-
   
 
 /*---------------------------------------
@@ -700,10 +660,6 @@ color:#fff;
     margin: 0;
   }
   
-   .companypic h3 {
-    color: #1E4AA8
-	
-  }
   
   
 @media screen and (max-height: 450px) {
@@ -741,7 +697,7 @@ color:#fff;
 
    .intro-info {
   position: absolute;
-  margin-top: 50px;
+  margin-top: 60px;
   left:38%;
   height:800px;
 
@@ -757,14 +713,65 @@ color:#fff;
   }
   
 .side-img{
-	position:relative;
+	position:absolute;
 	float:right;
 	width: 350px;
-	right:20%; 
+	right:-10px; 
 	margin-top:48px;
 }
 	
+
+
+ /*---------------------------------------
+     COMPANY PIC       
+  -----------------------------------------*/
+
+   
+
+ #companypic{
+
+ }
  
+
+ .pic-h1{
+      display:absolute;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+	text-shadow:0 0 3px #000;
+	padding-top:0;
+	margin-top:0;    
+	color: #fff;
+	font-size: 100px;
+    font-weight: bold;
+    line-height: inherit;
+    letter-spacing: 2px;
+    cursor: e-resize;
+	
+ }
+ 
+  .pic-h3{
+	 color:#fff;
+	 text-align:center;
+	
+	 padding-top:60px;
+	 padding-bottom:0;
+ }
+  
+	  
+ .item {
+	 clear:both;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 300px;
+	padding-top:-20px;
+	margin-top:-20px;
+	background-image: url(../images/cp001.jpg);
+  }
+
+
  
    /*---------------------------------------
     COMPANY           
@@ -880,21 +887,7 @@ color:#fff;
 
  }
  
-
- .pic-h1{
-    display:absolute;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-	padding-top:60px;     color: #fff;
-	font-size: 100px;
-    font-weight: bold;
-    line-height: inherit;
-    letter-spacing: 2px;
-    cursor: e-resize;
-	
- }
-	  
+  
  .s-item {
 	 clear:both;
     background-position: absolute;
@@ -906,74 +899,346 @@ color:#fff;
 	margin-top:-20px;
 	background-image: url(../images/sp001.jpg);
   }
-
-
-
-  .servicepic h6 {
-    color: #858585;
-    margin: 0;
-  }
   
-   .servicepic h3 {
-    color: #1E4AA8
+#service1{
+}
+.service-info{
+    float:left;
+	width:600px;
 	
-  }
-   #service{
-
  }
- 
+
+.service-aside{
+	
+  position:absolute;
+  float:right;
+  background-repeat: no-repeat;
+  margin-top:270px;
+  padding-left:78px;
+  margin-left:45px;
+  width: 400px;
+
+
+}
+.service-aside img{
+	 border-radius:  0 0 10px 10px;
+}
+   #service3{
+	float:left;
+	margin-left:20%;
+	margin-right:0;
+    margin-top:120px;
+
+	}
+
    .s-h2-1 {
 	margin-left:70px;  
     color: #272727;
     font-size: 1.9em;
     padding-bottom: 10px;
-	text-align:left;
-   font-weight: bold
-	margin-top:50px;
+	text-align:center;
+    font-weight: bold;
+	margin-top:30px;
   }
    .s-h2-2 {
 	margin-left:70px;  
     color: #272727;
     font-size: 1.9em;
     padding-bottom: 10px;
-	text-align:left;
-   font-weight: bold;
-	margin-top:50px;
+	text-align:center;
+    font-weight: bold;
+	margin-top:90px;
   }
   .border {
 	  
-	  border-left: 1100px solid #CCC;
-	  height: 1px;
-	margin-top:20px;
-	margin-left:37px; 
- 	  
+	border-left: 1080px solid #000;
+	height: 3px;
+	margin-top:-20px;
+	padding-top:0;
+	margin-left:27px; 
   }
-     .vl3 {
-	float:left;
-    border-left: 5px solid #1E4AA8;
-    height: 35px;
-    position: absolute;
-    left:22%;
-	margin-top:0px;
-    
-} 
-     .vl4 {
-	float:left;
-    border-left: 5px solid #1E4AA8;
-    height: 35px;
-    position: absolute;
-    left:22%;
-	margin-top:0px;
-    
-} 
   
-  
+ 
+ 
+.s-h3{
+	
+    font-size: 1.5em;
+    padding-bottom: 10px;
+	margin-top:40px;
+
+}
+
+.s-h4{
+	
+  margin-top:60px;
+  color: #2557B4;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  margin-top:60px;
+  margin-left:20px;
+	
+}
+
+.s-text{
+	width:1200px;
+	margin-left:30px;
+}
+ 
+
+#service3{
+	 margin-top:0;
+	 padding-top:0;
+}
+ 
+	 
+
+ .service3-info{
+    float:left;
+	width:1000px;
+	 margin-top:0;
+	 padding-top:0;
+ }
+	   
+ .s2-item {
+	clear:both;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 190px;
+	margin-top:80px;
+	background-image: url(../images/service2img.jpg);
+  }
+
+  .{
+	   border-radius: 10px;
+  }
+  .s2-h2{
+	 color:#fff;
+	 text-align:center;
+	 padding-top:40px;
+	margin-bottom:0;
+		padding-bottom:0;
+ }
+ 
+ .s2-h3{
+	 color:#fff;
+	 text-align:center;
+	margin-top:0px;
+	padding-top:0;
+ }
+ 
+ .s3-h4{
+	
+  margin-top:60px;
+  color: #3636B4;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  margin-top:40px;
+  margin-left:20px;
+	
+}
+ 
+ .s-h5{
+	  font-size: 1.2em; 
+	  margin-top:0;
+ }
+ 
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 } 
 
 
+  /*---------------------------------------
+     R&D   
+  -----------------------------------------*/
+   #rdpic{
+
+ }
+  
+   .rd-item {
+	 clear:both;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 300px;
+	padding-top:-20px;
+	margin-top:-20px;
+	background-image: url(../images/rd001.jpg);
+  }
+  
+
+  
+#rd1{
+}
+.rd-info.rd-image{
+    float:left;
+	width:600px;
+	
+ }
+
+
+.rdimg{
+	
+  position:absolute;
+  background-repeat: no-repeat;
+  margin-top:270px;
+  padding-left:78px;
+  left:15%;
+  width: 600px;
+  height:500px;
+}
+
+
+.rd1-img{
+	
+  position:absolute;
+  background-repeat: no-repeat;
+  margin-top:270px;
+  padding-left:78px;
+  left:15%;
+  width: 600px;
+  height:500px;
+
+	
+}
+
+   #rd3{
+	float:left;
+	margin-left:20%;
+	margin-right:0;
+    margin-top:120px;
+
+	}
+
+ 
+   .s-h2-1 {
+	margin-left:70px;  
+    color: #272727;
+    font-size: 1.9em;
+    padding-bottom: 10px;
+	text-align:center;
+    font-weight: bold;
+	margin-top:30px;
+  }
+   .s-h2-2 {
+	margin-left:70px;  
+    color: #272727;
+    font-size: 1.9em;
+    padding-bottom: 10px;
+	text-align:center;
+    font-weight: bold;
+	margin-top:90px;
+  }
+  .border {
+	  
+	border-left: 1080px solid #000;
+	height: 3px;
+	margin-top:-20px;
+	padding-top:0;
+	margin-left:27px; 
+  }
+  
+ 
+ 
+.r-h3{
+	
+    font-size: 1.5em;
+    padding-bottom: 10px;
+	margin-top:40px;
+
+}
+
+.r-h4{
+	
+  margin-top:60px;
+  color: #26732E;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  margin-top:40px;
+  margin-left:20px;
+	
+}
+
+.r-text{
+	width:1200px;
+	margin-left:30px;
+}
+ 
+
+#rd3{
+	 margin-top:0;
+	 padding-top:0;
+}
+ 
+	 
+
+ .rd3-info{
+    float:left;
+	width:1000px;
+	 margin-top:10px;
+	 padding-top:0;
+ }
+	
+	   
+ .rd2-item {
+	clear:both;
+    background-position:relative;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 190px;
+	margin-top:500px;
+	background-image: url(../images/rd2img.jpg);
+  }
+
+  .{
+	   border-radius: 10px;
+  }
+  .r2-h2{
+	 color:#fff;
+	 text-align:center;
+	 padding-top:40px;
+	margin-bottom:0;
+		padding-bottom:0;
+ }
+ 
+ .r2-h3{
+	 color:#fff;
+	 text-align:center;
+	margin-top:0px;
+	padding-top:0;
+ }
+ 
+ .r3-h4{
+	
+  margin-top:60px;
+  color: #106470;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  margin-top:40px;
+  margin-left:20px;
+	
+}
+ 
+ .r-h5{
+	  font-size: 1.2em; 
+	  margin-top:0;
+	  
+ }
+ 
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+} 
+  
+  
+  
+  
   /*---------------------------------------
       ABOUT              
   -----------------------------------------*/
@@ -1101,7 +1366,8 @@ color:#fff;
   }
 
   #news-detail blockquote {
-    margin: 30px 0;
+    margin: 25px 0;
+	
   }
 
   .news-detail-thumb .news-image img {
@@ -1505,6 +1771,7 @@ color:#fff;
 
     .border-top {
       text-align: center;
+
     }
 
     .copyright-text {

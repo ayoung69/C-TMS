@@ -1,0 +1,35 @@
+/* CSS Document */
+
+
+ #locationpic{
+
+ }
+ 
+  
+ .l-item {
+	 clear:both;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 300px;
+	padding-top:-20px;
+	margin-top:-20px;
+	background-image: url(../images/cm001.jpg);
+  }
+
+
+
+
+.map{
+border: #d8c7a0 1px solid;
+ position: relative;
+ padding-bottom: 50%;
+}
+.map iframe{
+ position: absolute;
+ left:0;
+ top:0;
+ width: 100%;
+ height: 100%;
+}
