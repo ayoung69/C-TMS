@@ -598,8 +598,6 @@ color:#fff;
   -----------------------------------------*/
 
 #content{
-	
-  
 
 }
 
@@ -697,7 +695,7 @@ color:#fff;
 
    .intro-info {
   position: absolute;
-  margin-top: 60px;
+  margin-top: 50px;
   left:38%;
   height:800px;
 
@@ -705,7 +703,7 @@ color:#fff;
    
 	.introfoot{
 	   
-	margin-top: 520px;
+	margin-top: 530px;
 	   
    }
   #aside{
@@ -811,7 +809,7 @@ color:#fff;
 	
     float:left;
 	width:700px;
-	margin-top:40px;
+	margin-top:50px;
 	margin-left:70px;
    
 }
@@ -821,7 +819,7 @@ color:#fff;
  
  
  .companyfoot{
-	 margin-top: 600px;
+	 margin-top: 635px;
  }
 
 
@@ -1095,26 +1093,40 @@ color:#fff;
 
 .rd1-img{
 	
-  position:absolute;
+ 
   background-repeat: no-repeat;
-  margin-top:270px;
-  padding-left:78px;
-  left:15%;
-  width: 600px;
-  height:500px;
+  margin-top:230px;
+  padding-left:310px;
+
 
 	
+}
+.rd-smsimg{
+	  float:left;
+  position:absolute;
+  background-repeat: no-repeat;
+  margin-top:350px;
+  left:38%;
+ 
+}
+.rd-sms-img{
+	
+ float:left;
+   position:absolute;
+   background-repeat: no-repeat;
+   margin-top:300px;
+
+
 }
 
    #rd3{
 	float:left;
 	margin-left:20%;
 	margin-right:0;
-    margin-top:120px;
+    margin-top:150px;
 
 	}
 
- 
    .s-h2-1 {
 	margin-left:70px;  
     color: #272727;
@@ -1152,17 +1164,27 @@ color:#fff;
 
 }
 
-.r-h4{
+.r01-h4{
 	
   margin-top:60px;
   color: #26732E;
   font-size: 1.5em;
   padding-bottom: 10px;
-  margin-top:40px;
-  margin-left:20px;
+  margin-top:58px;
+  margin-left:25px;
 	
 }
 
+.r02-h4{
+	
+  margin-top:60px;
+  color: #26732E;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  margin-top:45px;
+  margin-left:25px;
+	
+}
 .r-text{
 	width:1200px;
 	margin-left:30px;
@@ -1177,12 +1199,12 @@ color:#fff;
 	 
 
  .rd3-info{
-    float:left;
-	width:1000px;
-	 margin-top:10px;
+     float:left;
+	 width:1000px;
+	 margin-top:0;
 	 padding-top:0;
  }
-	
+
 	   
  .rd2-item {
 	clear:both;
@@ -1191,7 +1213,7 @@ color:#fff;
     background-attachment: local;
     background-size: cover;
     height: 190px;
-	margin-top:500px;
+	margin-top:370px;
 	background-image: url(../images/rd2img.jpg);
   }
 
@@ -1202,17 +1224,21 @@ color:#fff;
 	 color:#fff;
 	 text-align:center;
 	 padding-top:40px;
-	margin-bottom:0;
-		padding-bottom:0;
+	 margin-bottom:0;
+	 padding-bottom:0;
  }
  
  .r2-h3{
 	 color:#fff;
 	 text-align:center;
-	margin-top:0px;
-	padding-top:0;
+	 margin-top:0px;
+	 padding-top:0;
  }
- 
+ .rd-sms{
+	  float:left;
+	  position:relative;
+	  margin-top:430px;
+ }
  .r3-h4{
 	
   margin-top:60px;
@@ -1229,8 +1255,93 @@ color:#fff;
 	  margin-top:0;
 	  
  }
- 
+ .rd3-01-img{
+	  float:left;
+	  position:relative;
+	  margin-top:0;
+	  margin-left:30px;
+	  padding-right:0;
+	 
+ }
+ .rd3-01-img img{
+	 border-radius:  10px 10px 10px 10px;
+}
+.rd1-h5{
+	  font-size: 1.2em; 
+	  margin-top:0;
 
+	  text-align:center;
+}
+
+ .rd3-02-img{
+      float:right;
+	  position:relative;
+	  margin-top:0;
+      margin-right:-105px;
+ }
+ .rd3-02-img img{
+	 border-radius: 10px 10px 10px 10px;
+} 
+ .rd2-h5{
+	   font-size: 1.2em; 
+	  margin-top:0;
+	  text-align:center;
+ }
+ .rd4-h5{
+	  font-size: 1.2em; 
+	  margin-left:60px;
+
+	  text-align:center;
+}
+
+ #foot4{
+ }
+ 
+ 
+ .rdfoot{
+	 margin-top: 0px;
+ }
+
+#myVideo {
+	float:left;
+    right: 0;
+    bottom: 0;
+    min-width:100%; 
+    min-height: 100%;
+	margin-left:78%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content-01 {
+    float:left;
+    bottom: 0;
+	
+    padding-left: 20px;
+	margin-left:72.5%;
+	 padding-top:0;
+	
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 640px;
+	height: 50px;
+
+    font-size: 22px;
+
+	margin-top:0;
+	 padding-top:0;
+    border: none;
+    background: #E6E6E6;
+    color: #666;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #DAEDED;
+    color:#fff;
+	 border: none;
+} 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
