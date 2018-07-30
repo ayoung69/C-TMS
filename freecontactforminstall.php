@@ -24,7 +24,7 @@ $install_complete = '<br />Installation complete. <a href="contactform.htm">Visi
 $config_template = 
 '<?php
 
-$email_to = "{EMAIL}"; // your email address
+$email_to = "{doriskwon@c-tms.com}"; // your email address
 $email_subject = "{SUBJECT}"; // email subject line
 $thankyou = "{THANKYOU}"; // thank you page
 
