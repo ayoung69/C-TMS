@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <?php
-if(isset($_GET['email'])) {
+if(isset($_POST['email'])) {
      
     
 	$email_to = "veryartyoung@naver.com";
@@ -18,17 +18,17 @@ if(isset($_GET['email'])) {
     }
      
     // validation expected data exists
-    if(!isset($_GET['first_name']) ||
-        !isset($_GET['email']) ||
-        !isset($_GET['telephone']) ||
-        !isset($_GET['comments'])) {
+    if(!isset($_POST['first_name']) ||
+        !isset($_POST['email']) ||
+        !isset($_POST['telephone']) ||
+        !isset($_POST['comments'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
      
-    $first_name = $_GET['first_name']; // required
-    $email_from = $_GET['email']; // required
-    $telephone = $_GET['telephone']; // not required
-    $comments = $_GET['comments']; // required
+    $first_name = $_POST['first_name']; // required
+    $email_from = $_POST['email']; // required
+    $telephone = $_POST['telephone']; // not required
+    $comments = $_POST['comments']; // required
      
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,4}$/';
@@ -60,13 +60,6 @@ $headers = 'From: '.$email_from;
 // 제목이 깨질경우 아래 캐릭터셋 적용
 
 @mail($email_to, $email_subject, $email_message, $headers);  
-
-
-
-
-
-
-
 ?>
  
 <!-- include your own success html here -->
