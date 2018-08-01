@@ -61,8 +61,7 @@ $headers = 'From: '.$email_from;
 
 @mail($email_to, $email_subject, $email_message, $headers);  
 
-	@ResponseBody
-	public json method(temp777)
+	
 
 
 
