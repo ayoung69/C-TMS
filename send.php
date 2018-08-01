@@ -60,6 +60,14 @@ $headers = 'From: '.$email_from;
 // 제목이 깨질경우 아래 캐릭터셋 적용
 
 @mail($email_to, $email_subject, $email_message, $headers);  
+@RequestMapping(value="/", method = {RequestMethod.GET, RequestMethod.POST})
+	@ResponseBody
+	public json method(temp777)
+
+
+
+
+
 ?>
  
 <!-- include your own success html here -->
