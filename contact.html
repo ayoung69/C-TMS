@@ -17,9 +17,6 @@ http://www.tooplate.com/view/2098-health
      <meta name="author" content="Tooplate">
      
          <link rel="stylesheet" href="css/bootstrap.min.css">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <link rel="stylesheet" href="form.css" >
 
 
 
@@ -153,10 +150,9 @@ http://www.tooplate.com/view/2098-health
                                
   
 
-	
+
 <section id="appoint" data-stellar-background-ratio="3">
 
-	
 
 
     <div class="container">
@@ -167,18 +163,18 @@ http://www.tooplate.com/view/2098-health
                     
                   <form role="form" method="post" id="reused_form" >
                         <div class="form-group">
-                            <label for="name"> Name:</label>
-                            <input type="text" class="form-control" id="name" name="name" required maxlength="50">
+                           <label for="name"> Name:</label>
+                            <input type="text" class="form-control" id="name" name="name"  placeholder="Full Name"  required maxlength="50">
                         </div>
                         <div class="form-group">
                             <label for="email"> Email:</label>
-                            <input type="email" class="form-control" id="email" name="email" required maxlength="50">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email"required maxlength="50">
                         </div>
                         <div class="form-group">
                             <label for="name"> Message:</label>
                             <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Your Message Here" maxlength="6000" rows="7"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">submit</button>
+                            
+                         <button type="submit" class="form-control" id="cf-submit" name="submit">SUBMIT</button>
                     </form>
                     <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Sent your message successfully!</h3> </div>
                     <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
@@ -242,7 +238,8 @@ http://www.tooplate.com/view/2098-health
      <script src="js/smoothscroll.js"></script>
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/custom.js"></script>
-     <script src="form.js"></script>
+      <script src="js/form.js"></script>
+        <script src="form.js"></script>
 
         
   <script>

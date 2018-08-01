@@ -85,3 +85,44 @@ border: #d8c7a0 1px solid;
 .contact-foot{
  margin-top: 580px;
 }
+
+
+
+ #appoint {
+    padding-top:10px;
+  }
+
+  #appoint label {
+    color: #393939;
+    font-weight: 400;
+  }
+
+  #appoint .form-control {
+    background: #f9f9f9;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: normal;
+
+    margin-bottom: 6px;
+	
+    transition: all ease-in-out 0.4s;
+  }
+
+  #appoint input,
+  #appoint select {
+    height: 27px;
+  }
+
+  #appoint button#cf-submit {
+    background: #a5c422;
+    color: #ffffff;
+    font-weight: 300;
+    height: 40px;
+  }
+
+  #appoint button#cf-submit:hover {
+    background: #393939;
+    color: #ffffff;
+  }
