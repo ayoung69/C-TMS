@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <?php
-if(isset($_POST['email'])) {
+if(isset($_GET['email'])) {
      
     
 	$email_to = "veryartyoung@naver.com";
