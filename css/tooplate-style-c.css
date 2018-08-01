@@ -65,3 +65,23 @@ border: #d8c7a0 1px solid;
 .location-foot{
  margin-top: 860px;
 }
+
+
+.appointment{
+	float:left;
+	 position: absolute;
+ left:0;
+}
+
+
+
+.contactform{
+	float:left;
+	 position: absolute;
+ left:2%;
+ width:55%;
+}
+
+.contact-foot{
+ margin-top: 580px;
+}
