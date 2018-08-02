@@ -40,18 +40,35 @@ border: #d8c7a0 1px solid;
 
 	background: #69F;
 	width:600px;
-	height:350px;
+	height:200px;
+	margin-top: 5px;
+	
+	
+}
+#box2{
+   	float:left;
+	background: #69F;
+	margin-top: 380px;
+	margin-left:20px;
+	width:535px;
+	height:200px;
   
-
 
 }
 .h5{
 	color:#fff;
 }
-	.box-msg{
+.box-msg{
 	width: 100%;
     text-align: center;
 	}
+	
+.box2-msg{
+	float:left;
+	width: 100%;
+    text-align: center;
+
+	}	
 	
 .box-heading{
 	
@@ -60,17 +77,24 @@ border: #d8c7a0 1px solid;
 	color: #fff;
 	font-size: 18px;
 }
-
+.box2-heading{
+	
+	left:0;
+	margin-top: 32px;
+	color: #fff;
+	font-size: 18px;
+	 text-align: center;
+}
 
 .location-foot{
- margin-top: 860px;
+ margin-top: 820px;
 }
 
 
 .appointment{
-	float:left;
+	 float:left;
 	 position: absolute;
- left:0;
+     left:0;
 }
 
 
@@ -78,12 +102,12 @@ border: #d8c7a0 1px solid;
 .contactform{
 	float:left;
 	 position: absolute;
- left:2%;
- width:55%;
+    left:2%;
+    width:55%;
 }
 
 .contact-foot{
- margin-top: 580px;
+ margin-top: 720px;
 }
 
 
@@ -105,7 +129,7 @@ border: #d8c7a0 1px solid;
     font-size: 14px;
     font-weight: normal;
 
-    margin-bottom: 11px;
+    margin-bottom: 0px;
 	
     transition: all ease-in-out 0.4s;
   }
@@ -116,7 +140,7 @@ border: #d8c7a0 1px solid;
   }
 
   #appoint button#cf-submit {
-    background: #69F;
+    background: #999;
     color: #ffffff;
     font-weight: 300;
     height: 40px;
